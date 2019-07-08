@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 150
+exclude = nginx, sql, web, src/blog/migrations, .venv
+ignore = E121,E123,E126,E226,E24,E704,I100,I201,I202
+application-import-names = blog,mysite
